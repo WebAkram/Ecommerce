@@ -1,0 +1,855 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css">    
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link rel="stylesheet" href="index.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
+
+  <title>Saeed ghani product</title>
+
+</head>
+
+<body>
+
+
+
+  <div class="logo my-2">
+    <img class="mx-auto d-block" src="image/saeed.webp" alt="" width="230" height="80">
+
+  </div>
+
+  <nav id="navbar" style="border-top:1px solid silver;" class="navbar navbar-expand-xl  sticky-top bg-light  navbar-light ">
+
+
+
+    <img class="avif mx-auto " src="image/logo.avif" alt="" height="50px">
+
+    <span id="boot-icon" class="bi bi-person " style="font-size:28px; -webkit-text-stroke-width: 1px; " data-bs-toggle="offcanvas" data-bs-target="#offcanvasRightlogin" aria-controls="offcanvasRight"></span>
+
+
+    <!-- login model starting -->
+
+    <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRightlogin" aria-labelledby="offcanvasRightLabellogin">
+      <div class="offcanvas-header">
+        <h5 class="login" id="offcanvasRightLabellogin">customer login:</h5>
+        <button type="button" style="font-size:11px ;" class="btn-close text-reset me-5 mb-1" data-bs-dismiss="offcanvas" aria-label="Close">
+          <span style="top:13px; font-style:italic; font-weight:600;  font-size:15px;" class="ms-3 position-absolute">CLOSE</span>
+        </button>
+
+
+      </div>
+
+      <div>
+      </div>
+      <hr style="width:340px;" class="mx-auto mt-5 ">
+
+
+
+      <div class="offcanvas-body mx-auto">
+        <label class=" d-flex mb-2" for="">Email Address&nbsp;<span id="star">*</span></label>
+        <input type="email" placeholder="Email" name="" class="p-2" id="inputemail">
+
+
+        <label class=" d-flex mt-2" for="">Password&nbsp;<span id="star"> *</span></label>
+        <input type="email" class="mt-2 p-2" placeholder="Password" name="" id="inputpass">
+
+        <!-- <input type="button"  class="loginbtn mt-4 p-2" placeholder="Login" class="d-flex" value=""> -->
+        <button class="mt-4 p-2  d-flex  loginbtn" type="submit">Login</button>
+
+        <a href="" class="forget">Forgot your password?</a>
+
+        <a href="" class="create p-2">CREATE YOUR ACCOUNT</a>
+
+
+      </div>
+
+    </div>
+    <!-- login model ending -->
+    <span style="cursor:pointer;" class="py-1 badge rounded-circle    text-light" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">1</span>
+
+    <i id="boot-icon" class="bi bi-handbag gg" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight"></i>
+    <!-- Icon bag -->
+
+
+    <!-- cart model starting -->
+
+    <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+      <div class="offcanvas-header">
+        <h5 id="offcanvasRightLabel">Offcanvas right</h5>
+        <button type="button" style="font-size:11px ;" class="btn-close text-reset me-5 mb-1" data-bs-dismiss="offcanvas" aria-label="Close">
+          <span style="top:18px; font-style:italic; font-weight:600; font-family:Georgia, 'Times New Roman', Times, serif; font-size:13px;" class="ms-3 position-absolute">CLOSE</span>
+        </button>
+      </div>
+      <div class="offcanvas-body">
+        ...
+      </div>
+    </div>
+    <!-- cart model ending -->
+
+
+    <div class="container-fluid">
+
+      <!-- <img src="image/saeed.webp"  class="header_image" width="100px" height="80px" alt=""> -->
+
+
+
+      <button " class=" navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample" aria-controls="offcanvasExample">
+
+        <i style="font-size:27px;  border-radius:5px;" class=" text-dark  fas fa-bars"></i>
+
+      </button>
+
+
+      <!-- *****search start ***** -->
+      <span id="boot-icon" class="bi bi-search sea" style="font-size:20px; overflow:hidden;"></span>
+      <button style=" display:none; overflow:hidden; " class="btn-close dis des mt-1"></button>
+      <!--*** end search *** -->
+
+      <!--*** sidebar menu *** -->
+      <div class="collapse navbar-collapse">
+        <div class="navlogo">
+          <i id="heart" class="far fa-heart"></i>
+          <img src="image/aug.png" id="logopak" width="30" height="27" alt="">
+          <span id="pkr">PKR </span>
+        </div>
+        <ul id="none" class="navbar-nav mx-auto pe-5 mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="#">HOME</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="#collection">PRODUCTS</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="#featured">FEATURED</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#review"">REVIEW</a>
+          </li>
+          <li class=" nav-item">
+              <a class="nav-link" href="#section-wrapper">CONTACT US</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#blog">BLOGS</a>
+          </li>
+        </ul>
+
+      </div>
+    </div>
+
+    <div id="search" style=" display:none;  height:60px; width:100%;  border-bottom:none !important;">
+      <div style="height:55.4px ; width: 100%; " class="bg-light line">
+        <input style="height:55.4px;" placeholder="Search" class="bg-light w-50  " type="search" id="input">
+
+        </input>
+      </div>
+
+    </div>
+
+    <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+
+      <div class="offcanvas-header border-bottom ">
+
+        <img src="image/logo.avif" alt="" height="45" width="125" id="offcanvasExampleLabel" class="offcanvas-title mx-auto mt-1">
+
+        <button type="button" style="font-size: 30px; border:0ch;" class="fas fa-times time " data-bs-dismiss="offcanvas" aria-label="Close"></button>
+
+      </div>
+
+      <div class="offcanvas-body px-0">
+        <ul class="navbar-nav">
+          <a style="display: none;" class="na ms-4 active ng" aria-current="page" href="#">NEW ARRIVALS</a>
+          <li class="item">
+            <a class="na ms-4  ng" aria-current="page" href="#collection">NEW ARRIVALS
+              <i class="fas fa-arrow-right mt-1 sec"></i>
+            </a>
+            <hr>
+          </li>
+          <li class="item ">
+            <a class="nav ms-4 ng" href="#">HERBAL
+              <i class="fas fa-arrow-right mt-1 ng"></i>
+            </a>
+            <hr>
+          </li>
+          <li class="item">
+            <a class="nav ms-4 ng" href="#">SKIN CARE
+              <i class="fas fa-plus mt-1 "></i>
+            </a>
+            <hr>
+          </li>
+          <li class="item">
+            <a class="nav ms-4 ng" href="#">HAIR CARE
+              <i class="fas fa-plus plus2 mt-1 "></i>
+            </a>
+            <hr>
+          </li>
+          <li class="item">
+            <a class="nav ms-4 ng" href="#">FRAGRANCES
+              <i class="fas fa-plus plus3 mt-1 "></i>
+            </a>
+            <hr>
+          </li>
+          <li class="item">
+            <a class="nav ms-4 ng" href="#blog">DEALS & KITS
+              <i class="fas fa-arrow-right third mt-1"></i>
+            </a>
+            <hr>
+          </li>
+        </ul>
+        <div class=" mt-3">
+          <i style="font-size:38px;" class="fab fa-facebook-square"></i>
+          <i style="font-size:38px;" class="fab fa-twitter-square ms-4  text-info"></i>
+          <i style="font-size:38px;" class="fab fa-instagram ms-4"></i>
+          <i style="font-size:38px; color:springgreen;" class="fab fa-whatsapp-square ms-4"></i>
+        </div>
+        <div class="mt-4 ">
+          <table class="table table-bordered">
+            <thead class="d-flex">
+              <tr>
+                <th style=" font-weight:lighter; font-weight:500; font-size:14px;"> &nbsp;&nbsp; <img src="image/pakistan.png" width="30" height="25" alt="">PKR &nbsp;&nbsp;&nbsp; &nbsp; </th>
+              </tr>
+              <tr>
+                <th data-bs-toggle="offcanvas" data-bs-target="#offcanvasRightlogin" aria-controls="offcanvasRight" style="font-weight:lighter; font-weight:400; "> &nbsp;&nbsp;&nbsp;&nbsp; <i style="font-size: 18px;" class="fas fa-user-alt"></i> Login &nbsp;&nbsp;&nbsp;&nbsp;</th>
+              </tr>
+              <th>
+              <th>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i class="far fa-heart"></i> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </th>
+              </tr>
+            </thead>
+          </table>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Carousel Slider start -->
+  <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="image/fashwash.webp" style="height:450px;" class="d-block w-100 imgi" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="image/sham.webp" style="height:450px;" class="d-block w-100 imgi" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="image/perfume.webp" style="height:450px;" class="d-block w-100 imgi" alt="...">
+      </div>
+    </div>
+  </div> <!-- Carousel Example end  -->
+
+
+  <!-- -->
+  <section id="collection" class="py-4">
+    <div class="container p-0">
+      <div class="title text-center">
+        <h2 style="font-size: 40px;" class="position-relative d-inline-block fw-bolder fw-lighter  mt-5">Exclusive <span class="productred"> Products</span></h2>
+      </div>
+      <div class="row g-0">
+        <div class="d-flex flex-wrap justify-content-center mt-5 filter-button-group">
+          <button type="button" class="btn m-2 text-dark active-filter-btn" data-filter="*">All</button>
+          <button type="button" class="btn m-2 text-dark" data-filter=".best">Best Sellers</button>
+          <button type="button" class="btn m-2 text-dark" data-filter=".feat">Featured</button>
+          <button type="button" class="btn m-2 text-dark" data-filter=".new">New Arrival</button>
+        </div>
+        <div class="collection-list mt-4 row gx-0 gy-3">
+          <div class="col-md-6 col-lg-4 col-xl-3 p-2 best">
+            <div class="collection-img position-relative overflow-hidden border">
+              <img src="image/ArganOil.webp" class="w-100 ">
+              <span class="position-absolute bg-primary text-white d-flex align-items-center justify-content-center fw-bold fst-italic">sale</span>
+            </div>
+            <div class="text-center">
+              <div class="rating mt-3">
+                <span class="text-primary"><i class="fas fa-star"></i></span>
+                <span class="text-primary"><i class="fas fa-star"></i></span>
+                <span class="text-primary"><i class="fas fa-star"></i></span>
+                <span class="text-primary"><i class="fas fa-star"></i></span>
+                <span class="text-primary"><i class="fas fa-star"></i></span>
+                <!-- <button class="btn btn-outline-danger"> Add To BAG</button> -->
+              </div>
+              <p class="text-capitalize fst-italic fw-bold my-1">gray shirt</p>
+              <span class="fw-bold fst-italic">$ 45.50</span>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-4 col-xl-3 p-2 feat">
+            <div class="collection-img position-relative overflow-hidden border">
+              <img src="image/c_undershirt.png" class="w-100">
+              <span class="position-absolute bg-primary text-white d-flex align-items-center justify-content-center fw-bold fst-italic">sale</span>
+            </div>
+            <div class="text-center">
+              <div class="rating mt-3">
+                <span class="text-primary"><i class="fas fa-star"></i></span>
+                <span class="text-primary"><i class="fas fa-star"></i></span>
+                <span class="text-primary"><i class="fas fa-star"></i></span>
+                <span class="text-primary"><i class="fas fa-star"></i></span>
+                <span class="text-primary"><i class="fas fa-star"></i></span>
+              </div>
+              <p class="text-capitalize my-1 fw-bold fst-italic">gray shirt</p>
+              <span class="fw-bold fst-italic">$ 45.50</span>
+
+            </div>
+
+          </div>
+
+          <div class="col-md-6 col-lg-4 col-xl-3 p-2 new">
+            <div class="collection-img position-relative overflow-hidden border">
+              <img src="image/c_t-shirt_men.png" class="w-100">
+              <span class="position-absolute bg-primary text-white d-flex align-items-center justify-content-center fw-bold fst-italic">sale</span>
+            </div>
+            <div class="text-center">
+              <div class="rating mt-3">
+                <span class="text-primary"><i class="fas fa-star"></i></span>
+                <span class="text-primary"><i class="fas fa-star"></i></span>
+                <span class="text-primary"><i class="fas fa-star"></i></span>
+                <span class="text-primary"><i class="fas fa-star"></i></span>
+                <span class="text-primary"><i class="fas fa-star"></i></span>
+              </div>
+              <p class="text-capitalize my-1 fw-bold fst-italic">gray shirt</p>
+              <span class="fw-bold fst-italic">$ 45.50</span>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-4 col-xl-3 p-2 best">
+            <div class="collection-img position-relative overflow-hidden border">
+              <img src="image/Shea-Butter-Lotion-125ml.webp" class="w-100">
+              <span class="position-absolute bg-primary text-white d-flex align-items-center justify-content-center fw-bold fst-italic">sale</span>
+            </div>
+            <div class="text-center">
+              <div class="rating mt-3">
+                <span class="text-primary"><i class="fas fa-star"></i></span>
+                <span class="text-primary"><i class="fas fa-star"></i></span>
+                <span class="text-primary"><i class="fas fa-star"></i></span>
+                <span class="text-primary"><i class="fas fa-star"></i></span>
+                <span class="text-primary"><i class="fas fa-star"></i></span>
+              </div>
+              <p class="text-capitalize my-1 fw-bold fst-italic">gray shirt</p>
+              <span class="fw-bold fst-italic">$ 45.50</span>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-4 col-xl-3 p-2 feat">
+            <div class="collection-img position-relative overflow-hidden border">
+              <img src="image/c_tunic-shirt_girl.png" class="w-100">
+              <span class="position-absolute bg-primary text-white d-flex align-items-center justify-content-center fw-bold fst-italic">sale</span>
+            </div>
+            <div class="text-center">
+              <div class="rating mt-3">
+                <span class="text-primary"><i class="fas fa-star"></i></span>
+                <span class="text-primary"><i class="fas fa-star"></i></span>
+                <span class="text-primary"><i class="fas fa-star"></i></span>
+                <span class="text-primary"><i class="fas fa-star"></i></span>
+                <span class="text-primary"><i class="fas fa-star"></i></span>
+              </div>
+              <p class="text-capitalize my-1 fw-bold fst-italic">gray shirt</p>
+              <span class="fw-bold fst-italic">$ 45.50</span>
+            </div>
+
+          </div>
+
+          <div class="col-md-6 col-lg-4 col-xl-3 p-2 new">
+            <div class="collection-img position-relative overflow-hidden border">
+              <img src="image/crack.webp" class="w-100">
+              <span class="position-absolute bg-primary text-white d-flex align-items-center justify-content-center fw-bold fst-italic">sale</span>
+            </div>
+            <div class="text-center">
+              <div class="rating mt-3">
+                <span class="text-primary"><i class="fas fa-star"></i></span>
+                <span class="text-primary"><i class="fas fa-star"></i></span>
+                <span class="text-primary"><i class="fas fa-star"></i></span>
+                <span class="text-primary"><i class="fas fa-star"></i></span>
+                <span class="text-primary"><i class="fas fa-star"></i></span>
+              </div>
+              <p class="text-capitalize my-1 fw-bold fst-italic">gray shirt</p>
+              <span class="fw-bold fst-italic">$ 45.50</span>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-4 col-xl-3 p-2 best">
+            <div class="collection-img position-relative overflow-hidden border">
+              <img src="image/c_western-shirt.png" class="w-100">
+              <span class="position-absolute bg-primary text-white d-flex align-items-center justify-content-center fw-bold fst-italic">sale</span>
+            </div>
+            <div class="text-center">
+              <div class="rating mt-3">
+                <span class="text-primary"><i class="fas fa-star"></i></span>
+                <span class="text-primary"><i class="fas fa-star"></i></span>
+                <span class="text-primary"><i class="fas fa-star"></i></span>
+                <span class="text-primary"><i class="fas fa-star"></i></span>
+                <span class="text-primary"><i class="fas fa-star"></i></span>
+              </div>
+              <p class="text-capitalize my-1 fw-bold fst-italic">gray shirt</p>
+              <span class="fw-bold fst-italic">$ 45.50</span>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-4 col-xl-3 p-2 feat">
+            <div class="collection-img position-relative overflow-hidden border">
+              <img src="image/Mugh.webp" class="w-100">
+              <span class="position-absolute bg-primary text-white d-flex align-items-center justify-content-center fw-bold fst-italic">sale</span>
+            </div>
+            <div class="text-center">
+              <div class="rating mt-3">
+                <span class="text-primary"><i class="fas fa-star"></i></span>
+                <span class="text-primary"><i class="fas fa-star"></i></span>
+                <span class="text-primary"><i class="fas fa-star"></i></span>
+                <span class="text-primary"><i class="fas fa-star"></i></span>
+                <span class="text-primary"><i class="fas fa-star"></i></span>
+              </div>
+              <p class="text-capitalize my-1 fw-bold fst-italic">gray shirt</p>
+              <span class="fw-bold">$ 45.50</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- end of collection -->
+
+
+  <!-- Deal of the week -->
+  <div class="deal_ofthe_week">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-lg-6">
+          <div class="deal_ofthe_week_img">
+            <img src="image/deal_ofthe_week.png" alt="">
+          </div>
+        </div>
+        <div class="col-lg-6 text-right deal_ofthe_week_col">
+          <div class="deal_ofthe_week_content d-flex flex-column align-items-center float-right">
+            <div class="section_title">
+              <h2>Deal Of The Week</h2>
+            </div>
+            <ul class="timer">
+              <li class="d-inline-flex flex-column justify-content-center align-items-center">
+                <div id="day" class="timer_num">3</div>
+                <div class="timer_unit">Day</div>
+              </li>
+              <li class="d-inline-flex flex-column justify-content-center align-items-center">
+                <div id="hour" class="timer_num">15</div>
+                <div class="timer_unit">hours</div>
+              </li>
+              <li class="d-inline-flex flex-column justify-content-center align-items-center">
+                <div id="minute" class="timer_num">45</div>
+                <div class="timer_unit">Mins</div>
+              </li>
+              <li class="d-inline-flex flex-column justify-content-center align-items-center">
+                <div id="second" class="timer_num">23</div>
+                <div class="timer_unit">Sec</div>
+              </li>
+            </ul>
+            <div class=" p-2 red_button deal_ofthe_week_button"><a class="shopnow" href="">Shop now</a></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- deal of the week end -->
+
+
+
+
+
+  <!-- featured slider -->
+  <section id="featured" class="py-5 slider_container">
+    <div class="container p-0">
+      <div class="title text-center">
+        <h2 style="font-size: 40px;" class="position-relative d-inline-block fw-bolder fw-lighter  mt-5">Featured <span class="productred"> Products</span></h2>
+      </div>
+
+      <div class="swiper cart_swiper mt-5">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <div class="img_box">
+              <img src="image/c_undershirt.png">
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="img_box">
+              <img src="image/c_t-shirt_men.png">
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="img_box">
+              <img src="image/c_western-shirt.png">
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="img_box">
+              <img src="image/c_tunic-shirt_girl.png">
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="img_box">
+              <img src="image/Shea-Butter-Lotion-125ml.webp">
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="img_box">
+              <img src="image/rose.webp">
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="img_box">
+              <img src="image/Hair-Growth-Water-120ml.webp">
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="img_box">
+              <img src="image/c_undershirt.png">
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="img_box">
+              <img src="image/c_undershirt.png">
+            </div>
+          </div>
+        </div>
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- featured slider end -->
+
+  <!-- reviews section starts  -->
+
+  <section class="review mt-5" id="review">
+    <h1 class="heading text-center client pb-4"> Client's <span class="text-dark">Review</span> </h1>
+    <div class="swiper review-slide container">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide slide">
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur veniam deserunt praesentium natus</p>
+          <div class="user">
+            <img src="image/c_t-shirt_men.png" alt="">
+            <div class="info">
+              <h3>john deo</h3>
+              <span>happy client</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="swiper-slide slide">
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur veniam deserunt praesentium natus</p>
+          <div class="user">
+            <img src="image/c_tunic-shirt_girl.png" alt="">
+            <div class="info">
+              <h3>john deo</h3>
+              <span>happy client</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="swiper-slide slide">
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur veniam deserunt praesentium natus</p>
+          <div class="user">
+            <img src="image/c_western-shirt.png" alt="">
+            <div class="info">
+              <h3>john deo</h3>
+              <span>happy client</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="swiper-slide slide">
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur veniam deserunt praesentium natus</p>
+          <div class="user">
+            <img src="image/c_tunic-shirt_girl.png" alt="">
+            <div class="info">
+              <h3>john deo</h3>
+              <span>happy client</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="swiper-slide slide">
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur veniam deserunt praesentium natus</p>
+          <div class="user">
+            <img src="image/c_t-shirt_men.png" alt="">
+            <div class="info">
+              <h3>john deo</h3>
+              <span>happy client</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="swiper-slide slide">
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur veniam deserunt praesentium natus</p>
+          <div class="user">
+            <img src="image/c_t-shirt_men.png alt="">
+                <div class=" info">
+            <h3>john deo</h3>
+            <span>happy client</span>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    </div>
+
+  </section>
+
+  <!-- reviews section ends -->
+
+
+  <!-- contact us page Start -->
+  <section class="py-5" id="section-wrapper">
+    <div class="box-wrapper">
+      <div class="info-wrap">
+        <h2 class="info-title">Contact Information</h2>
+        <h3 class="info-sub-title">Fill up the form and our Team will get back to you within 24 hours</h3>
+        <ul class="info-details">
+          <li>
+            <i class="fas fa-phone-alt"></i>
+            <span>Phone:</span> <a href="tel:+ 1235 2355 98">+ 1235 2355 98</a>
+          </li>
+          <li>
+            <i class="fas fa-paper-plane"></i>
+            <span>Email:</span> <a href="mailto:info@yoursite.com">info@yoursite.com</a>
+          </li>
+          <li>
+            <i class="fas fa-globe"></i>
+            <span>Website:</span> <a href="#">yoursite.com</a>
+          </li>
+        </ul>
+        <ul class="social-icons d-inline-block">
+          <li><a href="#"><i class="fab fa-facebook"></i></a></li>
+          <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+          <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+        </ul>
+      </div>
+      <div class="form-wrap">
+        <form action="#" method="POST">
+          <h2 class="form-title">Send us a message</h2>
+          <div class="form-fields">
+            <div class="form-group">
+              <input type="text" class="fname" placeholder="First Name">
+            </div>
+            <div class="form-group">
+              <input type="text" class="lname" placeholder="Last Name">
+            </div>
+            <div class="form-group">
+              <input type="email" class="email" placeholder="Mail">
+            </div>
+            <div class="form-group">
+              <input type="number" class="phone" placeholder="Phone">
+            </div>
+            <div class="form-group">
+              <textarea name="message" id="" placeholder="Write your message"></textarea>
+            </div>
+          </div>
+          <input type="submit" value="Send Message" class="submit-button">
+        </form>
+      </div>
+    </div>
+  </section>
+  <!-- contact us page end -->
+  <!-- Blogs section start -->
+  <div id="blog" class="container p-0 blogsection">
+    <div class="card">
+      <div class="card__header">
+        <img src="https://source.unsplash.com/600x400/?computer" alt="card__image" class="card__image" width="600">
+      </div>
+      <div class="card__body">
+        <span class="tag tag-blue">Technology</span>
+        <h4>What's new in 2022 Tech</h4>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi perferendis molestiae non nemo doloribus. Doloremque, nihil! At ea atque quidem!</p>
+      </div>
+      <div class="card__footer">
+        <div class="user">
+          <img src="https://i.pravatar.cc/40?img=1" alt="user__image" class="user__image">
+          <div class="user__info">
+            <h5>Jane Doe</h5>
+            <small>2h ago</small>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <div class="card__header">
+        <img src="https://source.unsplash.com/600x400/?food" alt="card__image" class="card__image" width="600">
+      </div>
+      <div class="card__body">
+        <span class="tag tag-brown">Food</span>
+        <h4>Delicious Food</h4>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi perferendis molestiae non nemo doloribus. Doloremque, nihil! At ea atque quidem!</p>
+      </div>
+      <div class="card__footer">
+        <div class="user">
+          <img src="https://i.pravatar.cc/40?img=2" alt="user__image" class="user__image">
+          <div class="user__info">
+            <h5>Jony Doe</h5>
+            <small>Yesterday</small>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <div class="card__header">
+        <img src="https://source.unsplash.com/600x400/?car,automobile" alt="card__image" class="card__image" width="600">
+      </div>
+      <div class="card__body">
+        <span class="tag tag-red">Automobile</span>
+        <h4>Race to your heart content</h4>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi perferendis molestiae non nemo doloribus. Doloremque, nihil! At ea atque quidem!</p>
+      </div>
+      <div class="card__footer">
+        <div class="user">
+          <img src="https://i.pravatar.cc/40?img=3" alt="user__image" class="user__image">
+          <div class="user__info">
+            <h5>John Doe</h5>
+            <small>2d ago</small>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- blogs section end -->
+
+  <!-- newsletter -->
+  <section id="newsletter" class="py-5">
+    <div class="container">
+      <div class="d-flex flex-column align-items-center justify-content-center">
+        <div class="title text-center pt-3 pb-5">
+          <h2 class="position-relative d-inline-block ms-4">Newsletter Subscription</h2>
+        </div>
+
+        <p class="text-center text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus rem officia accusantium maiores quisquam dolorum?</p>
+        <div class="input-group mb-3 mt-3">
+          <input type="text" class="form-control"  placeholder="Enter Your Email ...">
+          <button class="btn fst-italic fw-bold" type="submit">Subscribe</button>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- end of newsletter -->
+
+  <!-- footer -->
+  <footer class="bg-dark py-5">
+    <div class="container overflow-hidden">
+      <div class="row text-white g-4">
+        <div class="col-md-6 col-lg-3">
+          <a class="text-uppercase text-decoration-none brand text-primary fst-italic fw-bold" href="index.html">Stylo</a>
+          <p class="text-white text-muted mt-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum mollitia quisquam veniam odit cupiditate, ullam aut voluptas velit dolor ipsam?</p>
+        </div>
+
+        <div class="col-md-6 col-lg-3">
+          <h5 class="fst-italic">Links</h5>
+          <ul class="list-unstyled">
+            <li class="my-3">
+              <a href="#" class="text-white text-decoration-none text-muted">
+                <i class="fas fa-chevron-right me-1"></i> Home
+              </a>
+            </li>
+            <li class="my-3">
+              <a href="#" class="text-white text-decoration-none text-muted">
+                <i class="fas fa-chevron-right me-1"></i> Collection
+              </a>
+            </li>
+            <li class="my-3">
+              <a href="#" class="text-white text-decoration-none text-muted">
+                <i class="fas fa-chevron-right me-1"></i> Blogs
+              </a>
+            </li>
+            <li class="my-3">
+              <a href="#" class="text-white text-decoration-none text-muted">
+                <i class="fas fa-chevron-right me-1"></i> About Us
+              </a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="col-md-6 col-lg-3">
+          <h5 class="fst-italic mb-3">Contact Us</h5>
+          <div class="d-flex justify-content-start align-items-start my-2 text-muted">
+            <span class="me-3">
+              <i class="fas fa-map-marked-alt"></i>
+            </span>
+            <span class="fw-light">
+              Albert Street, New York, AS 756, United States of America
+            </span>
+          </div>
+          <div class="d-flex justify-content-start align-items-start my-2 text-muted">
+            <span class="me-3">
+              <i class="fas fa-envelope"></i>
+            </span>
+            <span class="fw-light">
+              attire.support@gmail.com
+            </span>
+          </div>
+          <div class="d-flex justify-content-start align-items-start my-2 text-muted">
+            <span class="me-3">
+              <i class="fas fa-phone-alt"></i>
+            </span>
+            <span class="fw-light">
+              +9786 6776 236
+            </span>
+          </div>
+        </div>
+
+        <div class="col-md-6 col-lg-3">
+          <h5 class="fst-italic mb-3">Follow Us</h5>
+          <div>
+            <ul class="list-unstyled d-flex">
+              <li>
+                <a href="#" class="text-white text-decoration-none text-muted fs-4 me-4">
+                  <i class="fab fa-facebook-f"></i>
+                </a>
+              </li>
+              <li>
+                <a href="#" class="text-white text-decoration-none text-muted fs-4 me-4">
+                  <i class="fab fa-twitter"></i>
+                </a>
+              </li>
+              <li>
+                <a href="#" class="text-white text-decoration-none text-muted fs-4 me-4">
+                  <i class="fab fa-instagram"></i>
+                </a>
+              </li>
+              <li>
+                <a href="#" class="text-white text-decoration-none text-muted fs-4 me-4">
+                  <i class="fab fa-pinterest"></i>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!-- end of footer -->
+
+
+
+
+
+  <button id="topBtn"><i class="fas fa-arrow-up"></i></button>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+
+  <script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.js"></script>
+  <script src="app.js"></script>
+
+  <script>
+    // AOS.init();
+  </script>
+</body>
+
+</html>
